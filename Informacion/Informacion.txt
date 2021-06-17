@@ -1,2 +1,2 @@
-Verificar estado de conexión a Internet en tu aplicación Android
+Verificar estado de conexión a Internet
 https://alvarez.tech/snippets/android-verificar-conexion-internet/
