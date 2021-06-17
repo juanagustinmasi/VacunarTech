@@ -1,2 +1,9 @@
 Verificar estado de conexión a Internet
 https://alvarez.tech/snippets/android-verificar-conexion-internet/
+
+
+Verificar nivel de bateria
+https://developer.android.com/training/monitoring-device-state/battery-monitoring?hl=es-419
+
+IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+Intent batteryStatus = context.registerReceiver(null, ifilter);
