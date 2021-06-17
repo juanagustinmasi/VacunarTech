@@ -1,6 +1,32 @@
 Verificar estado de conexión a Internet
 https://alvarez.tech/snippets/android-verificar-conexion-internet/
 
+Permisos en el AndroidManifest.xml.
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+Codigo para verificar
+ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+
+if (networkInfo != null && networkInfo.isConnected()) {
+    // Si hay conexión a Internet en este momento
+} else {
+    // No hay conexión a Internet en este momento
+}
+
+
+
+Otra forma de verficar conexion a internet
+https://developer.android.com/training/monitoring-device-state/connectivity-status-type?hl=es-419
+
+ConnectivityManager cm =
+            (ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
+
+    NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+    boolean isConnected = activeNetwork != null &&
+                          activeNetwork.isConnectedOrConnecting();
+
+
 
 Verificar nivel de bateria
 https://developer.android.com/training/monitoring-device-state/battery-monitoring?hl=es-419
