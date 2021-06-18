@@ -64,4 +64,4 @@ private void detectShake(SensorEvent event) {
 
 Permisos requeridos para el AndroidManifest
 <uses-permission android:name="android.hardware.sensor.gyroscope"/>
-<uses-permission android:name="android.hardware.sensor.accelerometer"/>
+<uses-permission android:name="android.hardware.sensor.accelerometer"/>	
