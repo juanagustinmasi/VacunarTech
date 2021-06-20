@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Vacunartech</string>
+    <string name="env">TEST</string>
 </resources>
