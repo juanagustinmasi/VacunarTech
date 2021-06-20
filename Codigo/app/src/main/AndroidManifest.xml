@@ -28,6 +28,8 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.Login" />
+
+    <activity android:name=".ConsultarTurnoActivity"></activity>
     </application>
 
 </manifest>
