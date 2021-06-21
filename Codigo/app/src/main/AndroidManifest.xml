@@ -30,7 +30,8 @@
             android:theme="@style/AppTheme.Login" />
 
     <activity android:name=".ConsultarTurnoActivity"></activity>
-    <activity android:name=".MiVacunaActivity"></activity>
+    <activity android:name=".MiVacunaActivity" android:theme="@style/AppTheme">
+    </activity>
     </application>
 
 </manifest>

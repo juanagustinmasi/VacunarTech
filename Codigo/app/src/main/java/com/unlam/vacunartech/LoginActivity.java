@@ -63,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(response.isSuccessful()){
                     //Login loginResponse = (Login) response.body();
                     //if(loginResponse.getSuccess().equals("true")){
-                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                        Intent intent = new Intent(LoginActivity.this, MiVacunaActivity.class);
                         startActivity(intent);
                     //}
                 } else {
