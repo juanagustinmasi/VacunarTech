@@ -1,8 +1,9 @@
 package com.unlam.vacunartech.models;
 
-public class Login {
+public class LoginResponse {
     private String success;
     private String msg;
+    private String token;
 
     public String getSuccess() {
         return success;
@@ -18,5 +19,9 @@ public class Login {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+
+    public String getToken() {
+        return token;
     }
 }
