@@ -62,7 +62,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private void doRegister(final String name, final String lastName, final String email, final Long dni,
                             final String password, final Integer commission, final Integer group){
-        Call call = RetrofitClient.getClient(BASE_URL)
+        Call call = RetrofitClient.getClient(getString(R.string.base_url))
                 .create(UserService.class)
                 .registerUser(getString(R.string.env), name, lastName, email, dni, password, commission, group);
 
