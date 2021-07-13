@@ -159,7 +159,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 //Execute Directions API request
 
                     GeoApiContext context = new GeoApiContext.Builder()
-                            .apiKey("")
+                            .apiKey("AIzaSyCSDlniplSntENVmO0QgYbokxd8DTGp5q8")
                             .build();
                     DirectionsApiRequest req = DirectionsApi.getDirections(context, location.getLatitude() + ", " + location.getLongitude(), "-34.6682723742521, -58.563840237802495");
                 try {
